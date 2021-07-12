@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"baseUrl": ".",
+		"preserveSymlinks": true,
+		"types": [
+			"vite/client"
+		],
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"src/**/*.spec.*"
+	]
+}
